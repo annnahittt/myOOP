@@ -21,7 +21,7 @@ class Product {
         return $this->price * $this->quantity;
     }}
 
-      $peach = new Product('Peaches', 0.90, 15);
+      $peach = new Product('Peaches', 0.90, 19);
        echo "Product: {$peach->getName()};\n";
        echo "Price: {$peach->getPrice()} USD;\n";
        echo "Quantity: {$peach->getQuantity()};\n";
